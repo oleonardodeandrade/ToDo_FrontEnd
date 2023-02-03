@@ -14,7 +14,7 @@ function Login() {
             senha: passwd,
         }
 
-        axios.post('https://get-todo.onrender.com/login', body).then((response) => {
+        axios.post('http://localhost:5000/login', body).then((response) => {
             console.log(response.data.token)
             sessionStorage.setItem('jwtToken', response.data.token);
             navigate("/")

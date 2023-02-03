@@ -36,7 +36,7 @@ function CardEdit({
             lista: lista
         }
         var token = sessionStorage.getItem('jwtToken');
-        axios.put('https://get-todo.onrender.com/cards/' + id, body, {
+        axios.put('http://localhost:5000/cards/' + id, body, {
             headers: {
                 'Authorization': `Bearer ${token}`,
             },

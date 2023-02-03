@@ -19,7 +19,7 @@ function Card({
     const deleteTask = () => {
 
         var token = sessionStorage.getItem('jwtToken');
-        axios.delete('https://get-todo.onrender.com/cards/' + id, {
+        axios.delete('http://localhost:5000/cards/' + id, {
             headers: {
                 'Authorization': `Bearer ${token}`,
             },
@@ -41,7 +41,7 @@ function Card({
                 lista: "ToDo"
             }
             var token = sessionStorage.getItem('jwtToken');
-            axios.put('https://get-todo.onrender.com/cards/' + id, body, {
+            axios.put('http://localhost:5000/cards/' + id, body, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
@@ -60,7 +60,7 @@ function Card({
                 lista: "Doing"
             }
             var token = sessionStorage.getItem('jwtToken');
-            axios.put('https://get-todo.onrender.com/cards/' + id, body, {
+            axios.put('http://localhost:5000/cards/' + id, body, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
@@ -81,7 +81,7 @@ function Card({
                 lista: "Doing"
             }
             var token = sessionStorage.getItem('jwtToken');
-            axios.put('https://get-todo.onrender.com/cards/' + id, body, {
+            axios.put('http://localhost:5000/cards/' + id, body, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },
@@ -100,7 +100,7 @@ function Card({
                 lista: "Done"
             }
             var token = sessionStorage.getItem('jwtToken');
-            axios.put('https://get-todo.onrender.com/cards/' + id, body, {
+            axios.put('http://localhost:5000/cards/' + id, body, {
                 headers: {
                     'Authorization': `Bearer ${token}`,
                 },

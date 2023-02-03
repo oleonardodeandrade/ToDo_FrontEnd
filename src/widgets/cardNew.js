@@ -25,7 +25,7 @@ function CardNew() {
         }
         var token = sessionStorage.getItem('jwtToken');
         console.log(token);
-        axios.post('https://get-todo.onrender.com/cards', body, {
+        axios.post('http://localhost:5000/cards', body, {
             headers: {
                 'Authorization': `Bearer ${token}`,
             },
