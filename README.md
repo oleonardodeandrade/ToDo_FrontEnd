@@ -1,11 +1,38 @@
-## How build this project
 
-Commands:
+# ToDO FrontEnd
 
-### `npm install --force`
+This is a FrontEnd of the project
 
-### `npm start`
 
-Live project:
+## Autores
 
-https://to-do-front-end.vercel.app/
+- [Leonardo Henrique de Andrade](https://github.com/oleonardodeandrade)
+
+
+## Instalação
+
+Instale com npm
+
+```bash
+  npm install --force
+```
+    
+## Deploy
+
+Para fazer o deploy desse projeto rode
+
+```bash
+  npm start
+```
+
+
+## Stack utilizada
+
+**Front-end:** React
+
+
+## Demonstração
+
+- [Live](https://to-do-front-end.vercel.app/)
+
+
