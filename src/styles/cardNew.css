@@ -1,0 +1,49 @@
+.card {
+    width: 13vw;
+    background-color: rgb(255, 255, 255);
+    padding: 1vw;
+    border-radius: 10px;
+    box-shadow: 1px 10px 20px #888888;
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    background-color: rgba(224, 224, 224, 0.938);
+    width: 12vw;
+}
+
+textarea {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(224, 224, 224, 0.938);
+    height: 60%;
+    width: 12.7vw;
+    resize: none;
+    box-shadow: 2px 2px #888888;
+    border: 0px;
+}
+
+.btn {
+    margin: 5px;
+    height: 6vh;
+    width: 100%;
+    border-radius: 1px;
+    background-color: rgba(224, 224, 224, 0.938);
+    border: 0px;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tip {
+    text-align: center;
+}

@@ -1,0 +1,93 @@
+.cardTask {
+    margin-top: 2vh;
+    width: 18vw;
+    box-shadow: 1px 10px 20px #888888;
+    background-color: white;
+    padding: 1vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.listRed {
+    height: 2vh;
+    width: 111%;
+    background-color: rgb(238, 5, 5);
+    position: relative;
+    top: -11%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.listYellow {
+    height: 2vh;
+    width: 111%;
+    background-color: rgb(255, 238, 0);
+    position: relative;
+    top: -11%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.listGreen {
+    height: 2vh;
+    width: 111%;
+    background-color: rgb(72, 255, 0);
+    position: relative;
+    top: -11%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.cardTask form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardTask h2 {
+    text-align: left;
+}
+
+.cardTask p {
+    text-align: left;
+    margin-bottom: 5%;
+    word-wrap: break-word;
+    height: 60%;
+    width: 18vw;
+    resize: none;
+    border: 0px;
+}
+
+.cardTask button {
+    margin: 5px;
+    width: 3vw;
+    height: 100%;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 0px white;
+    border: 0px;
+    font-size: 4vh;
+}
+
+.functionDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titleText {
+    width: 5vw;
+    text-overflow: ellipsis;
+}

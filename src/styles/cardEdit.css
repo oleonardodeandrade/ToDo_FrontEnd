@@ -1,0 +1,43 @@
+.cardEdit {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 13vw;
+    height: 30vh;
+    background-color: white;
+    padding: 1vw;
+
+}
+
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    background-color: rgba(224, 224, 224, 0.938);
+    width: 12vw;
+}
+
+textarea {
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(224, 224, 224, 0.938);
+    height: 60%;
+    width: 12.7vw;
+    resize: none;
+    box-shadow: 2px 2px #888888;
+    border: 0px;
+}
+
+button {
+    margin: 5px;
+    width: 2.5vw;
+    height: 4.5vh;
+    border-radius: 50px;
+    background-color: rgba(224, 224, 224, 0.938);
+    border: 0px;
+    font-size: larger;
+}
